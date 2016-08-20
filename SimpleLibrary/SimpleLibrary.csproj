@@ -42,13 +42,15 @@
   <ItemGroup>
     <Compile Include="BankAcount.cs" />
     <Compile Include="Interfaces\IBankAccount.cs" />
+    <Compile Include="Interfaces\IDb.cs" />
+    <Compile Include="Interfaces\IProcessingAccount.cs" />
     <Compile Include="Interfaces\IStringHelper.cs" />
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="ProcessingAccount.cs" />
     <Compile Include="StringHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
